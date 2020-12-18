@@ -55,7 +55,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Our method
-<img src="images/overview.PNG" alt="overview">
 <p align="center">
     <img src="images/overview.PNG" alt="overview">
     <h5 align="center">Figure1.Overview</h5>
