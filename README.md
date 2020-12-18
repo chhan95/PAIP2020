@@ -2,7 +2,7 @@
 
 
 <br />
-<p align="center">
+<p>
     <a href="https://paip2020.grand-challenge.org">
         <img src="images/logo.jpg" alt="Logo">
     </a>
