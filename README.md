@@ -59,6 +59,12 @@
     <img src="images/overview.PNG" alt="overview">
     <h5 align="center">Figure1.Overview</h5>
 </p>
+<ul>
+    <li>preprocessing</li>
+    <li>pretrained model</li>
+    <li>training</li>
+    <li>inference</li>
+</ul>
 
 <!--Installation-->
 ## prerequisites
