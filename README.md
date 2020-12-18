@@ -34,7 +34,7 @@
     </li>
 </ol>
 
-<!--PAIP2020 challenge--!>
+<!--PAIP2020 challenge-->
 ## PAIP2020 Challenge
 <!-- ABOUT THE PROJECT -->
 ## About The Project
