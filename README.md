@@ -56,7 +56,10 @@
 <!-- ABOUT THE PROJECT -->
 ## Our method
 <img src="images/overview.PNG" alt="overview">
-<strong align="center">Figure1.overview</strong>
+<p align="center">
+    <img src="images/overview.PNG" alt="overview">
+    <h5 align="center">Figure1.Overview</h5>
+</p>
 
 <!--Installation-->
 ## prerequisites
