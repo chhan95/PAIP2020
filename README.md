@@ -22,7 +22,7 @@
     <li>
         PAIP2020 Challenge
         <ul>
-            <li>Aims</li>
+            <a href="#paip2020_challenge"><li>Aims</li></a>
             <li>background</li>
             <li>dataset</li>
             <li>evaluation</li>
