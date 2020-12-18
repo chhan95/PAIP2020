@@ -13,7 +13,7 @@
     </p>      
 </p>
 
-<br />
+<br/>
 
 
 <!--Table of Contents--!>
@@ -54,6 +54,13 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Our method
+
+<!--Installation-->
+## prerequisites
 
 
+
+<!--certification-->
+## certification
+<img src="images/certicification.PNG" alt="Logo">
