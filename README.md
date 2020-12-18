@@ -8,8 +8,7 @@
   </a>
     <h3>Pathology AI Platfrom(PAIP)</h3>
     
-    <a href="https://paip2020.grand-challenge.org/">PAIP2020</a>
-    
+    <a href="https://paip2020.grand-challenge.org">PAIP2020</a>
     
 </p>
 
