@@ -55,8 +55,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Our method
-<p align="center">
-<img src="images/overview.PNG" alt="overview">
+<p align="center"><img src="images/overview.PNG" alt="overview">
+<br>
+    
 figure1.overview
 </p>
 
