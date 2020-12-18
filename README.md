@@ -3,7 +3,7 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/ChangHeeHAN/PAIP2020">
     <img src="images/logo.jpg" alt="Logo">
   </a>
 
