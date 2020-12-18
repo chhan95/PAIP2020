@@ -55,6 +55,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Our method
+<p>
+<img src="images/overview.PNG" alt="method">
+    figure1.
+</p>
 
 <!--Installation-->
 ## prerequisites
