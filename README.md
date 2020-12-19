@@ -5,14 +5,14 @@
     <a href="https://paip2020.grand-challenge.org">
         <img src="images/logo.jpg" alt="Logo">
     </a>
-    <h3 align="center">PAIP2020</h3>
     <p align="center"> 
-    PAIP2020 is the second challenge organized by the Pathology AI Platform (PAIP) and the Seoul National University Hospital (SNUH).
-    <br><a href="https://paip2020.grand-challenge.org"><strong>PAIP2020 homepage</strong></a>
+    <br>
+        PAIP2020 is the second challenge organized by the Pathology AI Platform (PAIP) <br>and the Seoul National University Hospital (SNUH).
+    <br>
+        <a href="https://paip2020.grand-challenge.org"><strong>PAIP2020 homepage</strong></a>
     </p>      
 </p>
 
-<br/>
 
 
 <!--Table of Contents--!>
@@ -74,11 +74,15 @@
     <li><strong>inference</strong></li>
 </ul>
 
-<!--Installation-->
+<!--prerequisites-->
 ## prerequisites
-
-
+ss
 
 <!--certification-->
 ## certification
-<img src="images/certicification.PNG" alt="Logo">
+<center>
+    <img src="images/certicification.PNG" alt="Logo" width="70%" >
+
+</center>
+
+
