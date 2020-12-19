@@ -1,4 +1,3 @@
-# PAIP2020
 
 
 <!-- PROJECT LOGO -->
@@ -18,38 +17,44 @@
 
 <!--Table of Contents--!>
 
-<ol>
-    <li>
-        PAIP2020 Challenge
-        <ul>
-            <li>Aims</li>
-            <li>background</li>
-            <li>dataset</li>
-            <li>evaluation</li>
-        </ul>
-    </li>
-    <li>
-        Our method
-    </li>
-    <li>
-        Installation
-    </li>
-    <li>
-        prerequisites
-    </li>
-</ol>
+<strong>Table of contents</strong>
+<details open="open">
+    <ol>
+        <li>
+            PAIP2020 Challenge
+            <ul>
+                <li>Aims</li>
+                <li>background</li>
+                <li>dataset</li>
+                <li>evaluation</li>
+            </ul>
+        </li>
+        <li>
+            Our method
+        </li>
+        <li>
+            Installation
+        </li>
+        <li>
+            prerequisites
+        </li>
+    </ol>
+</details>
+
+
 
 <!--PAIP2020 challenge-->
 ## PAIP2020 Challenge
 
 <ul>
-    <li>Aims</li>
-    asdfasdfasdfasdfasdfasdf
-    <li>background</li>
-    asdfasdfasdfasdf
-    <li>dataset</li>
-    <li>evaluation</li>
-
+    <li><strong>Aims:</strong></li>
+    &nbsp;Its
+    <li><strong>background:</strong></li>
+    &nbsp;asdfasdfasdfasdf
+    <li><strong>dataset</strong></li>
+    &nbsp;
+    <li><strong>evaluation</strong></li>
+    &nbsp;
 </ul>
 
 
@@ -60,10 +65,13 @@
     <h5 align="center">Figure1.Overview</h5>
 </p>
 <ul>
-    <li>preprocessing</li>
-    <li>pretrained model</li>
-    <li>training</li>
-    <li>inference</li>
+    <li><strong>preprocessing</strong></li>
+    &nbsp;
+    <li><strong>pretrained model</strong></li>
+    &nbsp;
+    <li><strong>training</strong></li>
+    &nbsp;
+    <li><strong>inference</strong></li>
 </ul>
 
 <!--Installation-->
