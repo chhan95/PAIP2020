@@ -5,8 +5,8 @@
     <a href="https://paip2020.grand-challenge.org">
         <img src="images/logo.jpg" alt="Logo">
     </a>
+    <h3 align="center">PAIP2020</h3>
     <p align="center"> 
-    <br>
         PAIP2020 is the second challenge organized by the Pathology AI Platform (PAIP) <br>and the Seoul National University Hospital (SNUH).
     <br>
         <a href="https://paip2020.grand-challenge.org"><strong>PAIP2020 homepage</strong></a>
