@@ -80,9 +80,9 @@ ss
 
 <!--certification-->
 ## certification
-<center>
+<p align="center">
     <img src="images/certicification.PNG" alt="Logo" width="70%" >
 
-</center>
+</p>
 
 
