@@ -57,12 +57,10 @@
     <li><strong>dataset</strong></li>
     &nbsp;
     <li><strong>evaluation</strong>
-        <ol>
+        <ul>
             <li >Evaluation Step #1:  MSI prediction accuracy (quantitative assessment)   The F1-score of your MSI prediction results will be evaluated.</li>
             <li>Evaluation Step #2:  Colorectal tumor segmentation accuracy (qualitative assessment)</li>
-        </ol>
- 
-
+        </ul>
     </li>
  
 
