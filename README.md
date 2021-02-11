@@ -23,7 +23,6 @@
         <li>
             PAIP2020 Challenge
             <ul>
-                <li>Aims</li>
                 <li>background</li>
                 <li>dataset</li>
                 <li>evaluation</li>
@@ -50,13 +49,21 @@
 ## PAIP2020 Challenge
 
 <ul>
-    <li><strong>Aims:</strong></li>
-    &nbsp;
-    <li><strong>background:</strong></li>
-    &nbsp;
-    <li><strong>dataset</strong></li>
-    &nbsp;
-    <li><strong>evaluation</strong>
+    <li>
+        <strong>background:</strong>
+        <p>Microsatellite instability (MSI), caused by a defective DNA mismatch repair system, has both prognostic and therapeutic implications in colorectal cancer (CRC).MSI is determined by using five microsatellite markers, including D2S123, D5S346, D17S250, BAT25, and BAT26.
+        <ul><li>MSI-High (MSI-H; instability at ≥ 2 microsatellite markers)</li>
+            <li>MSI-Low (MSI-L; instability at 1 marker)</li>
+            <li>MSI-Stable (MSS; microsatellite stable or no instability)</li></ul>
+        </p>
+    </li>
+    <li>
+        <strong>dataset</strong></li>
+        <p>
+           a  
+        </p>
+    <li>
+        <strong>evaluation</strong>
         <ul>
             <li>Evaluation Step #1: MSI prediction accuracy (quantitative assessment)</li>
             <li>Evaluation Step #2: Colorectal tumor segmentation accuracy (qualitative assessment)</li>
