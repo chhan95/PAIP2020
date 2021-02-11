@@ -5,8 +5,12 @@ from scipy import ndimage
 from skimage import measure, draw
 import openslide
 import tifffile
-from scipy.spatial import ConvexHull, convex_hull_plot_2d
 import openslide
+
+
+import argparse
+
+
 
 for i in range(1, 32):
     print(i)
@@ -61,3 +65,5 @@ for i in range(1, 32):
 
     out = cv2.resize(removed_small_component,wsi.dimensions)
     tifffile.imsave("data/validation_wsi/tissue/{0}.tif".format(i),out,compress=9)
+
+

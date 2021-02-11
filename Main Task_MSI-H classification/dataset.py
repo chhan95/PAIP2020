@@ -121,7 +121,7 @@ def prepare_PAIP2020_PANDA(valid_fold):
         if os.path.exists('{0}/benign/{1:02d}/'.format(root_path, i)):
             train_set += load_data_info('{0}/benign/{1:02d}/'.format(root_path, i) , parse_label=False, label_value=0)
 
-    root_path = '/media/data1/han/PAIP2020_DATA/PAIP2020_validation/wsi_5x_tiles_128'
+    root_path = 'data/validation_wsi/wsi_5x_tiles_128'
 
     for i in range(1,32):
         if os.path.exists('{0}/tumor/{1:02d}/'.format(root_path, i)):

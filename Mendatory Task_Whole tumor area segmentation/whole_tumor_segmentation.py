@@ -25,7 +25,7 @@ class Prediction(Config):
     def __init__(self):
         super(Config, self).__init__()
 
-        self.data_root_dir = '/media/han/hard_2/PAIP2020_validation/'
+        self.data_root_dir = 'data/validation_wsi/'
 
 
     def load_weight(self, net, load_path, Parallel=False):
@@ -67,16 +67,16 @@ class Prediction(Config):
     def predict(self):
         net = EfficientNet.from_pretrained('efficientnet-b2', num_classes=2)
         with torch.no_grad():
-            net = self.load_weight(net, "/home/han/바탕화면/PAIP2020/log/model_net_28524.pth")
+            net = self.load_weight(net, "log/model_net_28524.pth")
             net = net.to("cuda")
             print("Prediction Start!")
             for idx in range(1, 32):
-                wsi_path = self.data_root_dir + "validation_data_{0:02d}.svs".format(idx)
+                wsi_path = self.data_root_dir + "wsi_folder/validation_data_{0:02d}.svs".format(idx)
                 wsi = openslide.OpenSlide(wsi_path)
 
                 wsi_w, wsi_h = wsi.dimensions
 
-                tissue = imread("data/PAIP2020_validation/tissue/{0}.tif".format(idx))
+                tissue = imread("data/validation_wsi/wsi_tissue_folder/{0}.tif".format(idx))
                 wsi_pred = np.zeros((wsi_h, wsi_w), dtype=np.uint8)
 
                 window_size=1024
@@ -121,9 +121,9 @@ class Prediction(Config):
                     wsi_pred = self.predict_patch(i,window_size,wsi, tissue, net, wsi_pred, wsi_h, wsi_w)
                 print("저장")
                 small_wsi_pred = cv2.resize(wsi_pred, (0, 0), fx=0.01, fy=0.01, interpolation=cv2.INTER_NEAREST)
-                plt.imsave('data/PAIP2020_validation/tumor/{0}.png'.format(idx), small_wsi_pred)
+                plt.imsave('data/validation_wsi/mask_pre/{0}.png'.format(idx), small_wsi_pred)
                 wsi_pred = wsi_pred.astype('uint8')
-                imsave('data/PAIP2020_validation/tumor/{0}_t.tif'.format(idx), wsi_pred, compress=9)
+                imsave('data/validation_wsi/mask_pre/{0}_t.tif'.format(idx), wsi_pred, compress=9)
 
 
 if __name__ == '__main__':
