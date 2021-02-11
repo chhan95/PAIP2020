@@ -11,7 +11,7 @@ import openslide
 for i in range(1, 32):
     print(i)
 
-    file="data/validation_svs/validation_data_{0:02d}.svs".format(i)
+    file="data/validation_wsi/validation_data_{0:02d}.svs".format(i)
     filename = file.split("/")[-1].split(".")[0].split("_")[-1]
     wsi = openslide.OpenSlide(file)
     wsi_w, wsi_h = wsi.dimensions
@@ -55,9 +55,9 @@ for i in range(1, 32):
 
     removed_small_component=cv2.dilate(removed_small_component,kernel,iterations=1)
 
-    plt.imsave("data/validation_svs/tissue_img/{0}.png".format(i),removed_small_component)
+    plt.imsave("data/validation_wsi/tissue_img/{0}.png".format(i),removed_small_component)
 
-    wsi = openslide.OpenSlide("data/validation_svs/validation_data_{0:02d}.svs".format(i))
+    wsi = openslide.OpenSlide("data/validation_wsi/validation_data_{0:02d}.svs".format(i))
 
     out = cv2.resize(removed_small_component,wsi.dimensions)
-    tifffile.imsave("data/validation_svs/tissue/{0}.tif".format(i),out,compress=9)
+    tifffile.imsave("data/validation_wsi/tissue/{0}.tif".format(i),out,compress=9)
