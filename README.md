@@ -86,10 +86,19 @@
   ```sh
   pip install imgaug
   ```
+* torch
+  ```sh
+  pip install torch
+  ```
+* openslide-python
+  ```sh
+  pip install openslide-python
+  ```
+* tifffile
+  ```sh
+  pip install tifffile
+  ```
 
-torch
-openslide-python
-tiffile
 
 <!--certification-->
 ## certification
