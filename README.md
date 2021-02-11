@@ -32,15 +32,12 @@
         <li>
             Our method
             <ul>
-                <li>preprocessing</li>
-                <li>pretrained model</li>
-                <li>training</li>
-                <li>inference</li>
+                <li>Task1.MSI-H classification</li>
+                <li>Task2.Whole tumor segmentation</li>
+            
             </ul>
         </li>
-        <li>
-            Installation
-        </li>
+       
         <li>
             prerequisites
         </li>
@@ -59,8 +56,16 @@
     &nbsp;
     <li><strong>dataset</strong></li>
     &nbsp;
-    <li><strong>evaluation</strong></li>
-    &nbsp;
+    <li><strong>evaluation</strong>
+        <ol>
+            <li >Evaluation Step #1:  MSI prediction accuracy (quantitative assessment)   The F1-score of your MSI prediction results will be evaluated.</li>
+            <li>Evaluation Step #2:  Colorectal tumor segmentation accuracy (qualitative assessment)</li>
+        </ol>
+ 
+
+    </li>
+ 
+
 </ul>
 
 
