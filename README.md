@@ -33,12 +33,13 @@
             <ul>
                 <li>Task1.MSI-H classification</li>
                 <li>Task2.Whole tumor segmentation</li>
-            
             </ul>
         </li>
-       
         <li>
             prerequisites
+        </li>
+         <li>
+            certification
         </li>
     </ol>
 </details>
@@ -64,8 +65,10 @@
            <ul>
                 <li>The training dataset contains 47 WSIs</li>
                 <li>The validation dataset contains 31 WSIs</li> 
-                <li>The test dataset contains 40 WSIs</li> 
-                All WSIs were scanned at 40X magnification and all cases are randomly selected irrespective of the participating institutions.
+                <li>The test dataset contains 40 WSIs</li>
+                <p>
+                    All WSIs were scanned at 40X magnification and all cases are randomly selected irrespective of the participating institutions.
+                </p>
            </ul>
         </p>
     <li>
