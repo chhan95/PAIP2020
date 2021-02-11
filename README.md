@@ -109,10 +109,6 @@
   ```sh
   pip install imgaug
   ```
-* torch
-  ```sh
-  pip install torch
-  ```
 * openslide-python
   ```sh
   pip install openslide-python
