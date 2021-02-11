@@ -1,0 +1,73 @@
+import imgaug  # https://github.com/aleju/imgaug
+from imgaug import augmenters as iaa
+
+
+####
+class Config(object):
+    def __init__(self):
+        self.seed = 5
+        self.init_lr = 1.0e-4
+        self.lr_steps = 30  # decrease at every n-th epoch
+        self.train_batch_size = 12
+        self.infer_batch_size = 30
+        self.nr_epochs = 100
+        self.nr_classes = 2
+        self.num_tile=10
+        self.tile_size=128
+
+        # nr of processes for parallel processing input
+        self.nr_procs_train = 20
+        self.nr_procs_valid = 20
+
+        self.nr_fold = 5
+        self.fold_idx = 2
+        self.cross_valid = False
+
+        self.load_network = False
+        self.save_net_path = ""
+
+        # self.data_size = [1500, 1500]
+        # self.input_size = [1024, 1024]
+        self.data_size = [1000, 1000]
+        self.input_size = [1000, 1000]
+        #
+        self.dataset = 'PAIP2020_MSI'
+        # v1.0.3.0 test classifying cancer only
+        self.logging = True  # for debug run only
+        self.log_path = 'log/%s/' % self.dataset
+        # self.log_path = '/mnt/dang/output/NUCLEI-ENHANCE/%s/' % self.dataset
+        self.chkpts_prefix = 'model'
+        # self.model_name = 'efficientnet-b0_MSI_{0}fold_5x'.format(self.fold_idx)
+        self.model_name = 'efficientnet-b0_MSI_{0}_color'.format(self.fold_idx)
+
+        self.log_dir = self.log_path + self.model_name
+
+    def train_augmentors(self):
+        shape_augs = [
+
+        ]
+
+        input_augs = [
+            iaa.OneOf([
+                iaa.GaussianBlur((0, 3.0)),  # gaussian blur with random sigma
+                iaa.MedianBlur(k=(3, 5)),  # median with random kernel sizes
+                iaa.AdditiveGaussianNoise(loc=0, scale=(0.0, 0.05 * 255), per_channel=0.5),
+            ]),
+            iaa.Sequential([
+                iaa.Add((-26, 26)),
+                iaa.AddToHueAndSaturation((-10, 10)),
+                iaa.LinearContrast((0.8, 1.2), per_channel=1.0),
+            ], random_order=True),
+        ]
+        return shape_augs, input_augs
+
+    ####
+    def infer_augmentors(self):
+        shape_augs = [
+            iaa.Resize({
+                "height": self.input_size[0],
+                "width": self.input_size[1]}
+            ),
+        ]
+        return shape_augs, None
+############################################################################

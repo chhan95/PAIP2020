@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
     <a href="https://paip2020.grand-challenge.org">
-        <img src="images/logo.jpg" alt="Logo">
+        <img src="data/images/logo.jpg" alt="Logo">
     </a>
     <h3 align="center">PAIP2020</h3>
     <p align="center"> 
@@ -61,7 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Our method
 <p align="center">
-    <img src="images/overview.PNG" alt="overview">
+    <img src="data/images/overview.PNG" alt="overview">
     <h5 align="center">Figure1.Overview</h5>
 </p>
 <ul>
@@ -81,7 +81,7 @@ ss
 <!--certification-->
 ## certification
 <p align="center">
-    <img src="images/certicification.PNG" alt="Logo" width="70%" >
+    <img src="data/images/certicification.PNG" alt="Logo" width="70%" >
 
 </p>
 
